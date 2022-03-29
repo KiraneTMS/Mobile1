@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 //
 //    TextView linLayout[] =TextView.findViewWithTag("layout1");
     TextView TextwviewAge = findViewById(R.id.age);
-    String TextAge = TextwviewAge.toString();
+    String TextAge = TextwviewAge.getText().toString();
     int Age = Integer.parseInt(TextAge);
 
     @Override
